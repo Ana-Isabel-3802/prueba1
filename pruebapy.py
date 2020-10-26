@@ -1,2 +1,8 @@
 print "Hello cold word"
-a=raw_input("escribe algo para acabar ahora si el programa: ")
+cadena=raw_input("escribe algo para acabar ahora si el programa: ")
+entero=int(input("Escrbe un entero: "))
+decimal=float(input("Escrbe un decimal: "))
+print cadena
+print entero
+print decimal
+

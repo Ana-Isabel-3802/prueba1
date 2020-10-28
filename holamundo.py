@@ -3,8 +3,8 @@ print "Hello word 3.0"
 def juego():
     nuevoJuego ='S'
     while (nuevoJuego == 'S' or nuevoJuego == 's'
-           or nuevoJuego == 'SI' or nuevoJuego == 'sI' or
-           nuevoJuego == 'Si' or nuevoJuego == 'si'):
+    or nuevoJuego == 'SI' or nuevoJuego == 'sI' or
+    nuevoJuego == 'Si' or nuevoJuego == 'si'):
         num=int(input("En que numero pienso: "))
         a= random.randint(1, 20)
         a=int(a)

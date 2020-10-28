@@ -17,6 +17,6 @@ def juego():
             resp = 6
             acierto=True
     if acierto==False:
-        print "Ya no tienes intentos, has perdodo el juego :("
+        print "Ya no tienes intentos, has perdido el juego :("
     else:
         print "Felicidades acertaste :D"

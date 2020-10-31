@@ -6,6 +6,8 @@ def juego():
     while (nuevoJuego[0] == 'S' or nuevoJuego == 's'
     or nuevoJuego == 'SI' or nuevoJuego == 'sI' or
     nuevoJuego == 'Si' or nuevoJuego == 'si'):
+        print "Pienso en un numero del 1 al 20"
+        print "Tienes 5 intentos"
         num=int(input("En que numero pienso: "))
         a= random.randint(1, 20)
         a=int(a)

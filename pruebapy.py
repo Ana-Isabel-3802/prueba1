@@ -12,5 +12,5 @@ import holamundo as h
 #else:
 #    print "este numero tiene mas de un digito"
 print "Pienso en un numero del 1 al 20"
-print "Tienes 5 intentos"
+print "Tienes 5 intentos para adivinarlo"
 h.juego()

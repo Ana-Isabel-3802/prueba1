@@ -24,5 +24,5 @@ def juego():
             print "Ya no tienes intentos, has perdido el juego :("
         else:
             print "Felicidades acertaste :D"
-        nuevoJuego= raw_input("desea jugar de nuevo? S/N")
+        nuevoJuego= raw_input("desea jugar de nuevo? S/N: ")
          
